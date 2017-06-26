@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F786AC87-6254-4861-80A0-873972203360}</ProjectGuid>
+    <ProjectGuid>{84C28F3D-2032-423F-B519-52E38EC54073}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>第一题</RootNamespace>
-    <AssemblyName>第一题</AssemblyName>
+    <RootNamespace>_2_3_4题</RootNamespace>
+    <AssemblyName>2，3，4题</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
