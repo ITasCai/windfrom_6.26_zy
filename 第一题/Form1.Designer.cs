@@ -287,6 +287,7 @@
             this.brnsx.TabIndex = 20;
             this.brnsx.Text = "刷新";
             this.brnsx.UseVisualStyleBackColor = true;
+            this.brnsx.Click += new System.EventHandler(this.brnsx_Click);
             // 
             // btnno
             // 

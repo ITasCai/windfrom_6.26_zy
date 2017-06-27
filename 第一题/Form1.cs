@@ -93,7 +93,7 @@ namespace 第一题
             sqlcont = new SqlConnection(strcon);
             //定义连接字符串
             StringBuilder strsql = new StringBuilder("SELECT pid,pname,gname,pgs,pje FROM dbo.Play, dbo.gamelx WHERE dbo.Play.gid=dbo.gamelx.gid");
-            if (Convert.ToInt32(this.cmblx.SelectedValue) != -1)
+            if (Convert.ToInt32(cmblx.SelectedValue) != -1)
             {
                 //根据所选的游戏类别的值查询用户游戏表相关内容
                 strsql.AppendFormat(" and gamelx.gid='{0}'", Convert.ToInt32(this.cmblx.SelectedValue));
@@ -315,6 +315,21 @@ namespace 第一题
             {
                 MessageBox.Show("请选择一名用户在删除");
             }
+        }
+
+        /// <summary>
+        /// 刷新
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void brnsx_Click(object sender, EventArgs e)
+        {
+            //移除数据
+            getShowAll().Clear();
+            //添加数据
+            getShowAll();
+            MessageBox.Show("刷新成功！");
+
         }
     }
 }

@@ -136,6 +136,7 @@
             this.Controls.Add(this.lblzje);
             this.Name = "Form1";
             this.Text = "生活预算";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvshow)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
